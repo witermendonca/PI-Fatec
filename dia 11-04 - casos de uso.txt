@@ -1,0 +1,4 @@
+Na reunião do dia 11/04, fizemos um brainstorm sobre métricas de nosso software, decidindo em qual nicho atuaríamos de forma mais específica e quais seriam os públicos alvos do nosso software.
+Decidimos começar criando um esboço do diagrama de casos de uso, definindo os atores e os casos do mesmo, obtendo assim, os seguintes resultados:
+atores: usuários, ADMIN e parceiros
+casos de uso: cadastro, validar cadastro, cadastrar produtos compatíveis, consultar produtos, cadastrar locais de coleta, calcular compensação de carbono, calcular benefício dado a compensação de carbono, fornecer benefício, devolução de embalagens, listar local de coleta de acordo com a localização, receber benefícios, gerar relatórios de retorno, consultar relatórios.
