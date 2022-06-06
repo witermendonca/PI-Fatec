@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="_css/style.css">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>ECOSOLUTIONS</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent menu-content fixed-top">
+        <!--
+        <div class="navbar-brand m-0">
+            <a class="" href="#">
+                <img src="_img/logo.svg" alt="" width="50" height="54" class="d-inline-block align-text-top">
+            </a>
+        </div>
+        -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse header-menu" id="conteudoNavbarSuportado">
+            <div class="navbar-nav  mr-auto">
+                <h3 class="logo" href="#">ECOSOLUTIONS</h3>
+            </div>
+            <ul class="navbar-nav list-itens">
+                <li class="nav-item">
+                    <a href="blog.html" class="nav-link text-white">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="quem-somos.html" class="nav-link text-white">quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contato.html" class="nav-link text-white">Entre em contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="main-content">
+            <h1 class="primary-text text-white">Venha fazer parte de um </h1>
+            <h2 class="future ">futuro verde!</h2>
+            <div class="btns">
+                <button type="button" data-toggle="modal" data-target="#modalCadastro"> Se
+                    inscreva</button>
+                <button type="button" data-toggle="modal" data-target="#modalEntrar">Entrar</button>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <a class="link-blog" href="blog.html">Saiba mais porque é tão importante sau participação</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal cadastro -->
+        <div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg text-modal" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">Cadastrar</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="nomeCompleto">Nome Completo</label>
+                                    <input type="text" class="form-control" id="nomeCompleto" name="nomeCompleto"
+                                        aria-describedby="text" placeholder="Nome Completo">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="InputEmail"
+                                        name="email" placeholder="email@exemplo.com">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="cpf">CPF</label>
+                                    <input type="text" class="form-control" name="cpf" id="cpf"
+                                        aria-describedby="InputCPF" placeholder="000.000.000-00">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="celular">Celular</label>
+                                    <input type="text" class="form-control" name="celular" id="celular"
+                                        aria-describedby="InputCelular" placeholder="(00) 0 0000-0000">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="validationCustom03">Cidade</label>
+                                    <input type="text" class="form-control" id="validationCustom03" placeholder="Cidade"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Por favor, informe uma cidade válida.
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="validationCustom04">Estado</label>
+                                    <input type="text" class="form-control" id="validationCustom04" placeholder="Estado"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Por favor, informe um estado válido.
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="validationCustom05">CEP</label>
+                                    <input type="text" class="form-control" id="validationCustom05" placeholder="CEP"
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Por favor, informe um CEP válido.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="senha">Senha</label>
+                                    <div class="input-group ">
+                                        <input type="password" class="form-control" name="senha" id="senha"
+                                            placeholder="Digite uma senha" aria-label="Senha"
+                                            aria-describedby="basic-addon2">
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="confirmaSenha">Confirmar Senha</label>
+                                    <div class="input-group ">
+                                        <input type="password" class="form-control" name="confirmsenha"
+                                            id="confirmaSenha" placeholder="Confirmar Senha" aria-label="Senha"
+                                            aria-describedby="basic-addon2">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-cadastro-login" data-dismiss="modal">Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal entrar -->
+        <div class="modal fade" id="modalEntrar" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered text-modal" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="TituloModalCentralizado">Entrar</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="cpf">CPF</label>
+                                    <input type="text" class="form-control" name="cpf" id="cpf"
+                                        aria-describedby="InputCPF" placeholder="000.000.000-00">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="senha">Senha</label>
+                                    <div class="input-group ">
+                                        <input type="password" class="form-control" name="senha" id="senha"
+                                            placeholder="Digite uma senha" aria-label="Senha"
+                                            aria-describedby="basic-addon2">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-cadastro-login">Entrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+:root {
+  /* Cores */
+  --verde: #2b6100;
+  --verde-escuro: #204700;
+  --verde-medio-escuro: #316e00;
+  --verde-medio-claro: #4ead00;
+  --verde-claro: #6bed00;
+  --azul: #0a1861;
+  --marrom: #611f0a;
+  --marrom-claro: #ad3209;
+  --verde-secundario: #58ad11;
+}
+
+body {
+  background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),
+    url(../_img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  font-family: "Oxygen", sans-serif !important;
+  min-height: 100vh;
+}
+
+.menu-content {
+  text-transform: uppercase;
+}
+
+.logo {
+  letter-spacing: 0.4rem;
+  color: white;
+  padding: 1rem;
+  text-decoration: none !important;
+}
+
+.menu-content .list-itens {
+  margin-right: 90px;
+  gap: 20px;
+}
+
+.menu-content .list-itens a {
+  transform: 2ms ease-in;
+  position: relative;
+}
+
+.menu-content .list-itens a:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 0px;
+  height: 1px;
+  background-color: var(--verde-claro);
+  transition: all 1.5s ease;
+}
+
+.menu-content .list-itens a:hover:before {
+  width: 100%;
+}
+
+.main-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary-text {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.future {
+  font-size: 3rem;
+  color: var(--verde-medio-claro);
+  margin-bottom: 2rem;
+}
+
+.link-blog {
+  color: var(--verde-medio-claro);
+  text-decoration: none;
+}
+
+.link-blog:hover {
+  color: var(--verde-claro);
+  text-decoration: none;
+}
+
+.second-text {
+  margin-bottom: 7rem;
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btns button {
+  width: 250px;
+  height: 60px;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  border-radius: 0.25rem;
+  position: relative;
+  transition: 1.5s;
+}
+
+.btns button:hover {
+  color: var(--verde-medio-claro);
+  border: none;
+}
+
+.btns button:before {
+  content: "";
+  border-radius: 0.25rem;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  width: 0%;
+  height: 60px;
+  background-color: rgb(61, 61, 61);
+  z-index: -1;
+  transition: 1s;
+}
+
+.btns button:hover:before {
+  width: 100%;
+}
+
+.btn-cadastro-login {
+  color: #fff;
+  background-color: var(--verde-medio-escuro);
+  border-color: var(--verde-medio-escuro);
+}
+
+.btn-cadastro-login:hover {
+  color: #fff;
+  background-color: var(--verde-escuro);
+  border-color: var(--verde-escuro);
+}
+
+.text-modal {
+  color: var(--verde-escuro) !important;
+}
+
+/* Contato */
+
+.box {
+  color: #fff;
+  background-color: rgb(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 0.25rem;
+  width: 30%;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+legend {
+  border: 1px solid var(--verde);
+  padding: 0.625rem;
+  text-align: center;
+  background-color: var(--verde-medio-claro);
+  border-radius: 0.25rem;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.inputBox {
+  position: relative;
+  font-size: 14px;
+}
+
+.inputUser {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  font-size: 0.938rem;
+  width: 100%;
+  letter-spacing: 0.125rem;
+  padding: 16px;
+}
+
+#submite {
+  background-image: linear-gradient(
+    to right,
+    rgb(152, 251, 152),
+    var(--verde-medio-claro)
+  );
+  width: 100%;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+#submite:hover {
+  background-image: linear-gradient(to right, rgb(138, 230, 134), var(--verde));
+}
+
+.labelInput {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+  top: -12px;
+  font-size: 12px;
+  color: var(--verde-medio-claro);
+}
