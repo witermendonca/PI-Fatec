@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="css/style-inicio.css">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>ECOSOLUTIONS</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent menu-content ">
+        <button class="navbar-toggler mb-5" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse header-menu" id="conteudoNavbarSuportado">
+            <div class="navbar-nav  mr-auto">
+                <h3 class="logo" href="#">ECOSOLUTIONS</h3>
+            </div>
+            <ul class="navbar-nav list-itens">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Sair <i class="fa-solid fa-right-from-bracket"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mt-lg-5 mb-5">
+
+        <section>
+            <div class="box-container mt-lg-5">
+                <div class="box">
+                    <a href="produtos.html" class="a-card">
+                        <img class="img-fluid" src="img/produtos.jpg" width="100%" alt="Produtos Reciclagem">
+                        <div class="content  text-green-dark">
+                            <h3 class="a-card text-green-dark">Produtos participantes</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="locais.html" class="a-card">
+                        <img class="img-fluid" width="100%" src="img/locais.jpg" alt="Localização">
+                        <div class="content">
+                            <h3 class="a-card text-green-dark">Locais de Coleta</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <hr class="margin-hr">
+
+        <div class="container mb-5">
+
+            <div class="container mb-5">
+                <form class="mb-5">
+                    <div class="form-group row">
+                        <div class="p- ">
+                            <h2 class=" text-green-dark">Insira o codigo do benefício</h2>
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control" id="inputCodigo" placeholder="">
+                        </div>
+                        <div class="col-1 p-0">
+                            <button type="submit" class="btn btn-codigo mb-2">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+            <h2 class=" text-green-dark">Benefícios</h2>
+            <section>
+                <div class="card total">
+                    <h3>
+                        <span>Saldo disponível</span>
+                        <img src="img/total.svg" alt="Imagem de Total">
+                    </h3>
+                    <p id="totalDisplay">R$&nbsp;32,78</p>
+                </div>
+            </section>
+            <h2 class="text-green-dark mb-5 mt-lg-5">Transações</h2>
+            <section id="transactions">
+                <table id="data-table">
+                    <thead>
+                        <tr class="text-green-dark">
+                            <th class="text-center">Descrição</th>
+                            <th class="text-center">Valor</th>
+                            <th class="text-center">Data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-index="0">
+                            <td class="descripcion">Entrada</td>
+                            <td class="income">R$&nbsp;15,27</td>
+                            <td class="date">08/06/2022</td>
+                        </tr>
+                        <tr data-index="0">
+                            <td class="descripcion">Entrada</td>
+                            <td class="income">R$&nbsp;33,80</td>
+                            <td class="date">08/06/2022</td>
+                        </tr>
+                        <tr data-index="0">
+                            <td class="descripcion">Saida</td>
+                            <td class="expense">-&nbsp;R$&nbsp;10,00</td>
+                            <td class="date">08/06/2022</td>
+                        </tr>
+                        <tr data-index="0">
+                            <td class="descripcion">Entrada</td>
+                            <td class="income">R$&nbsp;9,70</td>
+                            <td class="date">08/06/2022</td>
+                        </tr>
+                        <tr data-index="0">
+                            <td class="descripcion">Saida</td>
+                            <td class="expense">-&nbsp;R$&nbsp;15,99</td>
+                            <td class="date">08/06/2022</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <hr>
+    <footer class="page-footer font-small ">
+        <div class="footer-copyright  text-center py-3">
+            <p class="copyright text-muted">Copyright &copy; ECOSOLUTIONS 2022</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -60,7 +60,7 @@ body {
 }
 
 .main-content {
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,6 +100,16 @@ body {
   justify-content: center;
   gap: 20px;
 }
+
+@media (max-width: 800px) {
+  .btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+}
+
 
 .btns button {
   width: 250px;
