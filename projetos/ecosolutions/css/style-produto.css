@@ -69,6 +69,10 @@ body {
   font-size: 250% !important;
 }
 
+.f-100 {
+  font-size: 140% !important;
+}
+
 .text-green-dark {
   color: var(--verde) !important;
 }
