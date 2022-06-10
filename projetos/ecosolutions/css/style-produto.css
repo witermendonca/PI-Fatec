@@ -11,15 +11,24 @@
   --marrom-claro: #ad3209;
   --verde-secundario: #58ad11;
 }
+* {
+  transition: 0.2s linear;
+}
+
+html {
+  font-size: 65%;
+}
 
 body {
   min-height: 100vh;
   font-family: "Oxygen", sans-serif !important;
   background-color: #fff;
+  font-size: 155% !important;
 }
 
 .menu-content {
   text-transform: uppercase;
+  padding: 12px 20px 12px 20px !important;
 }
 
 .logo {
@@ -27,6 +36,7 @@ body {
   color: var(--verde);
   padding: 1rem;
   text-decoration: none !important;
+  font-size: 2.8rem !important;
 }
 
 .menu-content .list-itens {
@@ -55,6 +65,75 @@ body {
   width: 100%;
 }
 
+.f-200 {
+  font-size: 250% !important;
+}
+
 .text-green-dark {
   color: var(--verde) !important;
+}
+
+/*Cards
+==========================================================
+*/
+
+.produtos .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem 9%;
+}
+
+.produtos .box-container .box {
+  flex: 1 1 30rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(43, 104, 15, 0.205);
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.produtos .box-container .box .image {
+  position: relative;
+  text-align: center;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+
+.produtos .box-container .box .image img {
+  height: 25rem;
+}
+
+.produtos .box-container .box:hover .image img {
+  transform: scale(1.1);
+}
+
+.produtos .box-container .box .content {
+  padding: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/*******************************************/
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.box-container .box {
+  flex: 1 1 30rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(43, 104, 15, 0.205);
+  border-radius: 0.25rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.box-container .box .content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.box-container .box .content h3 {
+  font-size: 2.5rem;
 }
