@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <link rel="stylesheet" href="css/style-locais.css">
+    <link rel="stylesheet" href="css/style.css">
     <!--bootstrap css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -39,58 +39,75 @@
     </nav>
     <main class="container">
         <h1 class="text-center text-green-dark m-3">Locais de Coleta Autorizados</h1>
-        <div class="row w-100 mt-5 mb-5">
-            <div class="col-md-6 align-items-center mt-5 mb-5 text-center">
+
+        <div class="container mt-lg-5">
+            <div class="mt-lg-5">
+                <h2 class=" text-green-dark">Pesquisar Local</h2>
+            </div>
+            <form class="mb-5">
+                <div class="form-group row align-items-center">
+                    <div class="col-6">
+                        <input type="text" class="form-control" id="inputCodigo" placeholder="">
+                    </div>
+                    <div class="col-2 p-0">
+                        <button type="submit" class="btn btn-codigo mb-2">Buscar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-6 align-items-center mb-5 text-center">
                 <h3>Fatec Araras</h3>
                 <p>araras-Sp</p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29517.574775377703!2d-47.37411873359994!3d-22.365072769362733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c87057a4792fa3%3A0x2bf2ad63b481c2fe!2sAraras%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1654699837353!5m2!1spt-BR!2sbr"
-                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0" id="mapa1" class="tamlink"></iframe>
+                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+                    id="mapa1" class="tamlink"></iframe>
             </div>
-            <div class="col-md-6 align-items-center mt-5 mb-5 text-center">
+            <div class="col-md-6 align-items-center mb-5 text-center">
                 <h3>Supermercado Vita</h3>
                 <p>araras-Sp</p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29517.574775377703!2d-47.37411873359994!3d-22.365072769362733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c87057a4792fa3%3A0x2bf2ad63b481c2fe!2sAraras%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1654699837353!5m2!1spt-BR!2sbr"
-                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0" id="mapa2" class="tamlink"></iframe>
+                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+                    id="mapa2" class="tamlink"></iframe>
             </div>
         </div>
-        <div class="row mt-5 mb-5">
-            <div class="col-md-6 align-items-center mt-5 mb-5 text-center">
+        <div class="row mb-5">
+            <div class="col-md-6 align-items-center mb-5 text-center">
                 <h3>Mercado Bom Preço</h3>
                 <p>araras-Sp</p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29517.574775377703!2d-47.37411873359994!3d-22.365072769362733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c87057a4792fa3%3A0x2bf2ad63b481c2fe!2sAraras%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1654699837353!5m2!1spt-BR!2sbr"
-                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0" id="mapa3" class="tamlink"></iframe>
+                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+                    id="mapa3" class="tamlink"></iframe>
             </div>
-            <div class="col-md-6 align-items-center mt-5 mb-5 text-center">
+            <div class="col-md-6 align-items-center mb-5 text-center">
                 <h3>Mercearia Flora</h3>
                 <p>araras-Sp</p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29517.574775377703!2d-47.37411873359994!3d-22.365072769362733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c87057a4792fa3%3A0x2bf2ad63b481c2fe!2sAraras%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1654699837353!5m2!1spt-BR!2sbr"
-                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0" id="mapa4" class="tamlink"></iframe>
+                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+                    id="mapa4" class="tamlink"></iframe>
             </div>
         </div>
-        <div class="row mt-5 mb-5">
-            <div class="col-md-6 align-items-center mt-5 mb-5 text-center">
+        <div class="row mb-5">
+            <div class="col-md-6 align-items-center mb-5 text-center">
                 <h3>Padaria Bom Sabor</h3>
                 <p>araras-Sp</p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29517.574775377703!2d-47.37411873359994!3d-22.365072769362733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c87057a4792fa3%3A0x2bf2ad63b481c2fe!2sAraras%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1654699837353!5m2!1spt-BR!2sbr"
-                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0" id="mapa5" class="tamlink"></iframe>
+                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+                    id="mapa5" class="tamlink"></iframe>
             </div>
-            <div class="col-md-6 align-items-center mt-5 mb-5 text-center">
+            <div class="col-md-6 align-items-center mb-5 text-center">
                 <h3>Supermercado Ometo</h3>
                 <p>araras-Sp</p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29517.574775377703!2d-47.37411873359994!3d-22.365072769362733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c87057a4792fa3%3A0x2bf2ad63b481c2fe!2sAraras%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1654699837353!5m2!1spt-BR!2sbr"
-                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0" id="mapa6" class="tamlink"></iframe>
+                    height="215" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"
+                    id="mapa6" class="tamlink"></iframe>
             </div>
         </div>
         </div>
