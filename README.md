@@ -25,7 +25,7 @@ Link: https://witermendonca.github.io/PI-Fatec/projetos/ecosolutions/index.html
 - ANDRE LINCOLN MARTINS 
 GitHub: https://github.com/Andre520
 
-- Diego
+- DIEGO EDUARDO WILTLER
 GitHub: https://github.com/Diego-Eduardo-Wiltler
 
 - FELIPE DE PAULA VIEIRA DA SILVA 
