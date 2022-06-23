@@ -1,7 +1,8 @@
-# Projeto Interdisciplinar - Fatec Araras (1 semestre - turma 2022)
+# Projeto Interdisciplinar - Fatec Araras 
+(1 semestre - turma 2022)
 
 Projeto Interdisciplinar - Fatec Araras   
-Desenvolvimento de Software Multiplataforma (DSM) - 1º semestre
+Desenvolvimento de Software Multiplataforma (DSM) 
 Para as disciplinas: Engenharia de Software I, Desenvolvimento Web I e Design Digital
 
 ## MVP
@@ -9,13 +10,13 @@ Para as disciplinas: Engenharia de Software I, Desenvolvimento Web I e Design Di
 
 ## Participantes
 Responsáveis pelo projeto
-André Martins | [GitHub](https://github.com/Andre520) 
-Diego Eduardo Wiltler | [GitHub](https://github.com/Diego-Eduardo-Wiltler)
-Felipe Vieira | [GitHub](https://github.com/Felipe-Vieira-03)
-João Victor Castro | [GitHub](https://github.com/JoaoCaastro)
-Pablo Barbosa | [GitHub](https://github.com/Masterkingchefe)
-Thainá Roveroni Zanfolin | [GitHub](https://github.com/thainazanfolin)
-Witer Mendonça |[GitHub](https://github.com/witermendonca)
+André Martins | [GitHub](https://github.com/Andre520) <br>
+Diego Eduardo Wiltler | [GitHub](https://github.com/Diego-Eduardo-Wiltler)<br>
+Felipe Vieira | [GitHub](https://github.com/Felipe-Vieira-03)<br>
+João Victor Castro | [GitHub](https://github.com/JoaoCaastro)<br>
+Pablo Barbosa | [GitHub](https://github.com/Masterkingchefe)<br>
+Thainá Roveroni Zanfolin | [GitHub](https://github.com/thainazanfolin)<br>
+Witer Mendonça |[GitHub](https://github.com/witermendonca)<br>
 
 ## Projeto 
 O projeto Ecosolutions foi desenvolvido para o curso de Desenvolvimento de Software Multiplataforma, da Fatec Araras, por alunos do primeiro semestre do curso. 
