@@ -9,7 +9,7 @@ Para as disciplinas: Engenharia de Software I, Desenvolvimento Web I e Design Di
 [Acesse o MVP](https://witermendonca.github.io/PI-Fatec/projetos/ecosolutions/index.html)
 
 ## Participantes
-Responsáveis pelo projeto
+Responsáveis pelo projeto <br>
 André Martins | [GitHub](https://github.com/Andre520) <br>
 Diego Eduardo Wiltler | [GitHub](https://github.com/Diego-Eduardo-Wiltler)<br>
 Felipe Vieira | [GitHub](https://github.com/Felipe-Vieira-03)<br>
