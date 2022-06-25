@@ -49,6 +49,10 @@ Na plataforma é possível encontrar:
 ## Funcionalidades do sistema
 Veja as funcionalidades do sistema em nossa [Documentação](https://github.com/witermendonca/PI-Fatec/tree/main/projetos/documentacao)
 
+## Link para a visualização do croqui digital no figma:
+*https://www.figma.com/file/55rdcADUhsEUQasl5XwkfC/PI-FATEC?node-id=0%3A1
+
+
 ## Tecnologias 
 Para o projeto protótipo (desenvolvimento fron-end)
 * HTML5 e CSS (para páginas da plataforma);
