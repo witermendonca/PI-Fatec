@@ -50,7 +50,7 @@ Na plataforma é possível encontrar:
 Veja as funcionalidades do sistema em nossa [Documentação](https://github.com/witermendonca/PI-Fatec/tree/main/projetos/documentacao)
 
 ## Link para a visualização do croqui digital no figma:
-*https://www.figma.com/file/55rdcADUhsEUQasl5XwkfC/PI-FATEC?node-id=0%3A1
+https://www.figma.com/file/55rdcADUhsEUQasl5XwkfC/PI-FATEC?node-id=0%3A1
 
 
 ## Tecnologias 
