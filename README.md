@@ -64,6 +64,6 @@ Para pleno funcionamento, é necessário utilização e implementação das segu
 * implementação de linguagem adicional para back-end (PHP, JAVA, etc.).
 
 ## Documentação
-Acesse nossa [Documentação](https://github.com/witermendonca/PI-Fatec/tree/main/projetos/documentacao) completa
+Acesse nossa [Documentação](https://github.com/witermendonca/PI-Fatec/tree/main/projetos/documentacao) completa<br>
 Documentação feita em processo “Doc as Code”, podendo sofrer alterações de acordo com mudanças do próprio sistema. 
 
